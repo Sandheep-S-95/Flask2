@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CITY RESULT</title>
+</head>
+<body>
+    <table>
+        <tr style="border:2px solid black;background-color: cornflowerblue;">
+            <th><h1>CITY</h1></th>
+            <th><h1>COUNTRY</h1></th>
+            <th><h1>LATITUDE</h1></th>
+            <th><h1>LONGITUDE</h1></th>
+            <th><h1>TEMP MAX</h1></th>
+            <th><h1>TEMP MIN</h1></th>
+            <th><h1>TEMP</h1></th>
+        </tr>
+        <tr style="border:2px solid black;background-color:antiquewhite;">
+            <td><h1>{{row.city}}</h1></td>
+            <td><h1>{{row.country}}</h1></td>
+            <td><h1>{{row.latitude}}</h1></td>
+            <td><h1>{{row.longitude}}</h1></td>
+            <td><h1>{{row.temp_min}} F</h1></td>
+            <td><h1>{{row.temp_max}} F</h1></td>
+            <td><h1>{{row.temp}} F</h1></td>
+        </tr>
+    </table>
+
+</body>
+</html>
