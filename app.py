@@ -187,5 +187,5 @@ def forecast():
         return render_template("result.html",msg="error: "+str(e))
 
 def main():
-    app.run()
+    app.run(host="0.0.0.0", port=10000, debug=False)
 main()
